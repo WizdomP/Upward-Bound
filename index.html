@@ -4,25 +4,68 @@
 
 <head>
 <style>
-h1 {
-color: red;
-font-size:100px;
-}
-img {
-display: inline-block;
-width: 30.5%;
+.container {
+    max-width: 1200px;
+    display: blcock;
+    margin: auto;
     }
-p {
-display: inline-block;
-padding:10px 0 20px 20px
-}
+    .feature {
+    position: relative;
+    }
+    .feature p {
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        }
+    .columns .col {
+     display: inline-block;
+     width: 33%;
+     position: relative;
+     }
+     .columns .col p {
+         position: absolute;
+         padding: 0 15px;
+         bottom: 5%;
+         left: 5%;
+         color: pink;
+         font-weight: bold;
+         }
+     img {
+         display: block;
+         margin: auto;
+         max-width: 100%;
+         }
 </style>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <body>
+<main>
+<div class="container">
 <h1>:)</h1>
-<img src="sackboy.jpg">
+<section class="feature">
+<div class="col">
+<a href="https://tinyurl.com/548nn9ta"><img src="sackboy.jpg"></a>
+<div class="text-wrap">
 <p>Morbius is the best movie ever, and no one can prove otherwise. Unite, fellow Morbheads.</p>
+</div>
+</section>
+<section class="columns">
+<div class="col">
+<a href="https://tinyurl.com/2nwbfa3k"><img src="Morb.jpg"></a>
+<p>Morbius is the best movie ever, and no one can prove otherwise. Unite, fellow Morbheads.</p>
+</div>
+<div class="col">
+ <a href="https://tinyurl.com/y5fh52xy"><img src="Toad.jpg"></a>
+ <p>Morbius is the best movie ever, and no one can prove otherwise. Unite, fellow Morbheads.</p>
+ </div>
+<div class="col">
+<a href="https://tinyurl.com/2p95zvrj"><img src="Emoji.jpg"></a>
+<p>Morbius is the best movie ever, and no one can prove otherwise. Unite, fellow Morbheads.</p>
+</div>
+</section>
+</div>
+</main>
 </body>
+
 </html>
