@@ -27,16 +27,24 @@ h2 {
     left: 0;
     background: linear-gradient(to bottom, rgba(34,34,34,0) 0%, rba(34,34,34,0.8) 100%);
     opacity: .6;
-
+}
 .hero .text {
     position: absolute;
-    top: 50%
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .hero h1
 .hero h2 {
 margin: auto;
-color: #fff
+color: #fff;
 text-align: center;
 }
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col { flex: 1 0 0%;
+} 
