@@ -11,7 +11,7 @@ h2 {
     }
 
 .hero {
-    background-image: url(geetar.jpg);
+    background-image: url(bukowski.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -36,7 +36,7 @@ h2 {
 }
 .hero h1
 .hero h2 {
-margin: auto;
+margin: auto; 
 color: #fff;
 text-align: center;
 }
@@ -44,6 +44,8 @@ text-align: center;
 .columns {
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
+    overflow-wrap: break-word;
 }
 
 .col { flex: 1 0 0%;
